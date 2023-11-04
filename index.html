@@ -18,8 +18,7 @@
       rel="stylesheet"
     />
     <title>Frontend Mentor | News homepage</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <script src="./scripts/main.js" defer></script>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
@@ -36,6 +35,18 @@
           <li><a href="#">trending</a></li>
           <li><a href="#">categories</a></li>
         </ul>
+
+        <div class="ham-nav">
+          <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+
+          <ul id="menu" class="menu">
+            <li>Home</li>
+            <li>New</li>
+            <li>Popular</li>
+            <li>Trending</li>
+            <li>Categories</li>
+          </ul>
+        </div>
       </nav>
 
       <article class="article-card">
@@ -74,7 +85,7 @@
             </div>
             <p>Will hydrogen-fueled cars ever catch up to Evs?</p>
             <br />
-            <hr width="100%" class="hr" />
+            <hr width="100%" />
             <br />
           </div>
           <div class="a-summary">
@@ -86,7 +97,7 @@
               generation?
             </p>
             <br />
-            <hr width="100%" class="hr" />
+            <hr width="100%" />
             <br />
           </div>
           <div class="a-summary funding">
@@ -101,7 +112,7 @@
         </section>
         <section class="sec-summary">
           <div class="gadget">
-            <div class="sec-img">
+            <div class="sec-img retro">
               <img
                 src="./assets/images/image-retro-pcs.jpg"
                 alt=" A computer "
@@ -115,7 +126,7 @@
           </div>
 
           <div class="gadget">
-            <div class="sec-img">
+            <div class="sec-img laptop">
               <img src="./assets/images/image-top-laptops.jpg" alt="A laptop" />
             </div>
             <div class="summary">
@@ -140,6 +151,9 @@
         </section>
       </article>
     </main>
+
+    <script src="assets/scripts/script.js"></script>
+
     <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
