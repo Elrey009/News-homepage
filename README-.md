@@ -32,8 +32,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Elrey009/News-homepage)
+- Live Site URL: [Add live site URL here](https://news-homepage-one-pi.vercel.app/)
 
 ## My process
 
@@ -73,5 +73,5 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/solutions/responsive-product-preview-card-UKzo-kdMl5)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/solutions/responsive-news-homepage-m_rJ754S4J)
 - Twitter - [@yourusername](https://twitter.com/da_ni_lo009)
