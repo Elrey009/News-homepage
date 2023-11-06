@@ -81,8 +81,8 @@ a {
 
 .article-card {
   display: grid;
-  grid-template-columns: repeat(auto-fit minmax(4, 1fr));
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, auto-fit);
+  grid-template-rows: repeat(2, auto-fit);
   grid-template-areas:
     "first   first first  side-bar   "
     "second  third  third  side-bar   "
@@ -183,7 +183,7 @@ a {
 .aside {
   grid-area: side-bar;
   background-color: var(--Very-dark-blue);
-  height: 80%;
+  height: 100%;
 }
 
 .a-summary a:hover {
